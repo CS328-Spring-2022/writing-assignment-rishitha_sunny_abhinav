@@ -14533,35 +14533,35 @@ all of MD as it is not optimized for dense, information rich UIs.
     </p>
     <h1>
      <center>
-      Topic Name
+      Story on Water Bodies
      </center>
     </h1>
     <h4>
      <center>
       <a href="https://author1.github.io/" style="text-decoration:none">
-       Author 1
+       Talari Venkata Sunny
       </a>
       , IIT Gandhinagar,
       <a href="mailto:&lt;author1&gt;@iitgn.ac.in" style="text-decoration:none">
-       author1@iitgn.ac.in
+       sunny.s@iitgn.ac.in
       </a>
       <br/>
       <br/>
       <a href="https://author2.github.io/" style="text-decoration:none">
-       Author 2
+       Mekala Rishitha Ravi
       </a>
       , IIT Gandhinagar,
       <a href="mailto:&lt;author2&gt;@iitgn.ac.in" style="text-decoration:none">
-       author2@iitgn.ac.in
+       ravi.mekala@iitgn.ac.in
       </a>
       <br/>
       <br/>
       <a href="https://author3.github.io/" style="text-decoration:none">
-       Author 3
+       Abhinav Kumar
       </a>
       , IIT Gandhinagar,
       <a href="mailto:&lt;author3&gt;@iitgn.ac.in" style="text-decoration:none">
-       author3@iitgn.ac.in
+       abhinav.kumar@iitgn.ac.in
       </a>
      </center>
     </h4>
@@ -14576,6 +14576,1740 @@ all of MD as it is not optimized for dense, information rich UIs.
       <img alt="Repo" src="https://img.shields.io/badge/GitHub-&lt;repo_name&gt;-brightgreen"/>
      </a>
     </p>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <p>
+     <strong>
+      Introduction:
+     </strong>
+    </p>
+    <p>
+     The study highlights the land use
+analysis of the Tamil Nadu state of India that substantially showed decline in lakes and tanks of the city due to
+urbanization process. As a result of rapid urbanization, many of the water bodies have been lost and some
+are totally polluted. Land use analysis was done
+to show the changes in four major categories- urban, vegetation, water bodies and others that revealed
+drastic increase in urban category with sharp decline in the water bodies.
+    </p>
+   </div>
+  </div>
+  <div class="jp-Cell-inputWrapper">
+   <div class="jp-InputPrompt jp-InputArea-prompt">
+   </div>
+   <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+    <p>
+     <strong>
+      Government measures for water bodies in Tamil Nadu
+     </strong>
+    </p>
+    <p>
+     Public Works Department has been serving for the past 159 years in the construction and maintenance of Irrigation of structures and Government Buildings, massive structures and monuments stand as testimony to our engineering skill.
+    </p>
+    <p>
+     The water for delta irrigation released from Mettur dam reaches the Grand Anicut situated at Thogur village in Thiruvaiyaru Taluk of Thanjavur District.  At Grand Anicut the water has been regulated and distributed to Cauvery, Vennar, Grand Anicut Canal and Coleroon rivers by the divisions of Lower Cauvery Basin circle Thanjavur to irrigate the command area of 4,53,046 acres. During floods the storm water is being diverted  to the Coleroon river,  the flood carrier, in the Grand Anicut and their by the irrigation systems of  Cauvery, Vennar, Grand Anicut Canal are kept intact without any damages.
+    </p>
+    <p>
+     There was a time when life was centred around waterbodies. Those days are history. As times changed, people lost their connection with waterbodies, leaving them to shrink. As regards Thanjavur district, which has the maximum waterbodies, almost 86 per cent of them are full to the brim. Of the 559 lakes and tanks in the district, as many as 479 are 100 per cent full while 60 waterbodies are 90 to 100 per cent full.
+    </p>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [1]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="c1"># import matplotlib.pyplo</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [2]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="c1"># !pip install matplotlib</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [3]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"C:/Users/VENKATA SUNNY/Desktop/New folder/writing-assignment-rishitha_sunny_abhinav/_notebooks/data/tankponds.csv"</span><span class="p">)</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [4]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+      <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+       <div>
+        <style scoped="">
+         .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+        </style>
+        <table border="1" class="dataframe">
+         <thead>
+          <tr style="text-align: right;">
+           <th>
+           </th>
+           <th>
+            Type
+           </th>
+           <th>
+            Name of the Region
+           </th>
+           <th>
+            No. of Tanks
+           </th>
+           <th>
+            No. of Ponds
+           </th>
+           <th>
+            No. of Ooranis
+           </th>
+           <th>
+            Other Water Bodies if any
+           </th>
+           <th>
+            Total No. of Water Bodies
+           </th>
+           <th>
+            How many No. of Water Bodies under the Direct Control of the Municipality / Corporation as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the PWD as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the Revenue Dept. as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the Panchayat Union as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the HR and CE Dept. as per Survey Records
+           </th>
+           <th>
+            How many under the Control of other Dept. Fisheries etc. as per Survey Records / as per other records or documents
+           </th>
+           <th>
+            Any other remarks relevant to the issue
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <th>
+            6
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Coimbatore
+           </td>
+           <td>
+            15
+           </td>
+           <td>
+            39
+           </td>
+           <td>
+            22
+           </td>
+           <td>
+            18
+           </td>
+           <td>
+            94
+           </td>
+           <td>
+            8
+           </td>
+           <td>
+            86
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            3
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Thoothukudi
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            5
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            2
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Salem
+           </td>
+           <td>
+            13
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            13
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            9
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            4
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Trichy
+           </td>
+           <td>
+            30
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            18
+           </td>
+           <td>
+            49
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            24
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            7
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Madurai
+           </td>
+           <td>
+            45
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            26
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            77
+           </td>
+           <td>
+            25
+           </td>
+           <td>
+            45
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [5]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">required_column_totalwaterbodies</span><span class="o">=</span><span class="p">[</span><span class="s2">"Name of the Region"</span><span class="p">,</span><span class="s2">"No. of Tanks"</span><span class="p">,</span><span class="s2">"No. of Ponds"</span><span class="p">,</span><span class="s2">"No. of Ooranis"</span><span class="p">,</span><span class="s2">"Other Water Bodies if any"</span><span class="p">,</span><span class="s2">"Total No. of Water Bodies"</span><span class="p">]</span>
+<span class="n">totalwaterbodies</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="n">required_column_totalwaterbodies</span><span class="p">)</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [6]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">totalwaterbodies</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Total No. of Water Bodies"</span><span class="p">)</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+      <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+       <div>
+        <style scoped="">
+         .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+        </style>
+        <table border="1" class="dataframe">
+         <thead>
+          <tr style="text-align: right;">
+           <th>
+           </th>
+           <th>
+            Type
+           </th>
+           <th>
+            Name of the Region
+           </th>
+           <th>
+            No. of Tanks
+           </th>
+           <th>
+            No. of Ponds
+           </th>
+           <th>
+            No. of Ooranis
+           </th>
+           <th>
+            Other Water Bodies if any
+           </th>
+           <th>
+            Total No. of Water Bodies
+           </th>
+           <th>
+            How many No. of Water Bodies under the Direct Control of the Municipality / Corporation as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the PWD as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the Revenue Dept. as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the Panchayat Union as per Survey Records
+           </th>
+           <th>
+            How many under the Control of the HR and CE Dept. as per Survey Records
+           </th>
+           <th>
+            How many under the Control of other Dept. Fisheries etc. as per Survey Records / as per other records or documents
+           </th>
+           <th>
+            Any other remarks relevant to the issue
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <th>
+            3
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Thoothukudi
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            5
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            2
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Salem
+           </td>
+           <td>
+            13
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            13
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            9
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            1
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Erode
+           </td>
+           <td>
+            8
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            15
+           </td>
+           <td>
+            11
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            0
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Tiruppur
+           </td>
+           <td>
+            8
+           </td>
+           <td>
+            23
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            31
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            5
+           </td>
+           <td>
+            26
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            8
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Vellore
+           </td>
+           <td>
+            11
+           </td>
+           <td>
+            20
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            32
+           </td>
+           <td>
+            19
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            10
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Tiruppur
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            8
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            37
+           </td>
+           <td>
+            48
+           </td>
+           <td>
+            35
+           </td>
+           <td>
+            7
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+          </tr>
+          <tr>
+           <th>
+            4
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Trichy
+           </td>
+           <td>
+            30
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            18
+           </td>
+           <td>
+            49
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            24
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            5
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Tirunelveli
+           </td>
+           <td>
+            64
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            65
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            62
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            7
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Madurai
+           </td>
+           <td>
+            45
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            26
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            77
+           </td>
+           <td>
+            25
+           </td>
+           <td>
+            45
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            15
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Salem
+           </td>
+           <td>
+            40
+           </td>
+           <td>
+            41
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            84
+           </td>
+           <td>
+            7
+           </td>
+           <td>
+            33
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            35
+           </td>
+           <td>
+            7
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            6
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Coimbatore
+           </td>
+           <td>
+            15
+           </td>
+           <td>
+            39
+           </td>
+           <td>
+            22
+           </td>
+           <td>
+            18
+           </td>
+           <td>
+            94
+           </td>
+           <td>
+            8
+           </td>
+           <td>
+            86
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            14
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Madurai
+           </td>
+           <td>
+            34
+           </td>
+           <td>
+            15
+           </td>
+           <td>
+            81
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            131
+           </td>
+           <td>
+            69
+           </td>
+           <td>
+            17
+           </td>
+           <td>
+            35
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            7
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            2
+           </td>
+          </tr>
+          <tr>
+           <th>
+            11
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Vellore
+           </td>
+           <td>
+            95
+           </td>
+           <td>
+            37
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            15
+           </td>
+           <td>
+            153
+           </td>
+           <td>
+            24
+           </td>
+           <td>
+            23
+           </td>
+           <td>
+            91
+           </td>
+           <td>
+            4
+           </td>
+           <td>
+            9
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            12
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Tirunelveli
+           </td>
+           <td>
+            60
+           </td>
+           <td>
+            91
+           </td>
+           <td>
+            39
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            196
+           </td>
+           <td>
+            29
+           </td>
+           <td>
+            114
+           </td>
+           <td>
+            20
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            21
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            8
+           </td>
+          </tr>
+          <tr>
+           <th>
+            16
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Chengalpattu
+           </td>
+           <td>
+            94
+           </td>
+           <td>
+            89
+           </td>
+           <td>
+            1
+           </td>
+           <td>
+            16
+           </td>
+           <td>
+            200
+           </td>
+           <td>
+            44
+           </td>
+           <td>
+            25
+           </td>
+           <td>
+            31
+           </td>
+           <td>
+            26
+           </td>
+           <td>
+            74
+           </td>
+           <td>
+            0
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            9
+           </th>
+           <td>
+            Corporations
+           </td>
+           <td>
+            Total-Corporations
+           </td>
+           <td>
+            196
+           </td>
+           <td>
+            95
+           </td>
+           <td>
+            51
+           </td>
+           <td>
+            39
+           </td>
+           <td>
+            381
+           </td>
+           <td>
+            79
+           </td>
+           <td>
+            229
+           </td>
+           <td>
+            48
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            20
+           </td>
+           <td>
+            2
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            13
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Thanjavur
+           </td>
+           <td>
+            547
+           </td>
+           <td>
+            117
+           </td>
+           <td>
+            7
+           </td>
+           <td>
+            59
+           </td>
+           <td>
+            730
+           </td>
+           <td>
+            276
+           </td>
+           <td>
+            97
+           </td>
+           <td>
+            171
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            168
+           </td>
+           <td>
+            12
+           </td>
+           <td>
+            0
+           </td>
+          </tr>
+          <tr>
+           <th>
+            17
+           </th>
+           <td>
+            Municipalities and Others
+           </td>
+           <td>
+            Total-Municipalities and Others
+           </td>
+           <td>
+            873
+           </td>
+           <td>
+            398
+           </td>
+           <td>
+            137
+           </td>
+           <td>
+            134
+           </td>
+           <td>
+            1542
+           </td>
+           <td>
+            484
+           </td>
+           <td>
+            316
+           </td>
+           <td>
+            354
+           </td>
+           <td>
+            74
+           </td>
+           <td>
+            287
+           </td>
+           <td>
+            16
+           </td>
+           <td>
+            11
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [7]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">totalwaterbodies</span><span class="p">[[</span><span class="s1">'Name of the Region'</span><span class="p">,</span> <span class="s1">'Total No. of Water Bodies'</span><span class="p">]]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+      <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+       <div>
+        <style scoped="">
+         .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+        </style>
+        <table border="1" class="dataframe">
+         <thead>
+          <tr style="text-align: right;">
+           <th>
+           </th>
+           <th>
+            Name of the Region
+           </th>
+           <th>
+            Total No. of Water Bodies
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <th>
+            15
+           </th>
+           <td>
+            Salem
+           </td>
+           <td>
+            84
+           </td>
+          </tr>
+          <tr>
+           <th>
+            11
+           </th>
+           <td>
+            Vellore
+           </td>
+           <td>
+            153
+           </td>
+          </tr>
+          <tr>
+           <th>
+            16
+           </th>
+           <td>
+            Chengalpattu
+           </td>
+           <td>
+            200
+           </td>
+          </tr>
+          <tr>
+           <th>
+            13
+           </th>
+           <td>
+            Thanjavur
+           </td>
+           <td>
+            730
+           </td>
+          </tr>
+          <tr>
+           <th>
+            0
+           </th>
+           <td>
+            Tiruppur
+           </td>
+           <td>
+            31
+           </td>
+          </tr>
+          <tr>
+           <th>
+            10
+           </th>
+           <td>
+            Tiruppur
+           </td>
+           <td>
+            48
+           </td>
+          </tr>
+          <tr>
+           <th>
+            14
+           </th>
+           <td>
+            Madurai
+           </td>
+           <td>
+            131
+           </td>
+          </tr>
+          <tr>
+           <th>
+            7
+           </th>
+           <td>
+            Madurai
+           </td>
+           <td>
+            77
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [8]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">fig</span><span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">totalwaterbodies</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s2">"Name of the Region"</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s2">"Total No. of Water Bodies"</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [9]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">fig</span><span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">totalwaterbodies</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s2">"Name of the Region"</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s2">"No. of Tanks"</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [10]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">fig</span><span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">totalwaterbodies</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s2">"Name of the Region"</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s2">"No. of Ponds"</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [11]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="n">fig</span><span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">totalwaterbodies</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="s2">"Name of the Region"</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s2">"No. of Ooranis"</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [12]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span><span class="o">!</span>pip install jupyter
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="jp-Cell-outputWrapper">
+    <div class="jp-OutputArea jp-Cell-outputArea">
+     <div class="jp-OutputArea-child">
+      <div class="jp-OutputPrompt jp-OutputArea-prompt">
+      </div>
+      <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+       <pre>Requirement already satisfied: jupyter in c:\users\venkata sunny\anaconda3\lib\site-packages (1.0.0)
+Requirement already satisfied: nbconvert in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter) (6.1.0)
+Requirement already satisfied: ipykernel in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter) (6.4.1)
+Requirement already satisfied: notebook in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter) (6.4.5)
+Requirement already satisfied: qtconsole in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter) (5.1.1)
+Requirement already satisfied: ipywidgets in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter) (7.6.5)
+Requirement already satisfied: jupyter-console in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter) (6.4.0)
+Requirement already satisfied: tornado&lt;7.0,&gt;=4.2 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (6.1)
+Requirement already satisfied: debugpy&lt;2.0,&gt;=1.0.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (1.4.1)
+Requirement already satisfied: jupyter-client&lt;8.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (6.1.12)
+Requirement already satisfied: matplotlib-inline&lt;0.2.0,&gt;=0.1.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (0.1.2)
+Requirement already satisfied: ipython&lt;8.0,&gt;=7.23.1 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (7.29.0)
+Requirement already satisfied: ipython-genutils in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (0.2.0)
+Requirement already satisfied: traitlets&lt;6.0,&gt;=4.1.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipykernel-&gt;jupyter) (5.1.0)
+Requirement already satisfied: jedi&gt;=0.16 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (0.18.0)
+Requirement already satisfied: backcall in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (0.2.0)
+Requirement already satisfied: pickleshare in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (0.7.5)
+Requirement already satisfied: setuptools&gt;=18.5 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (58.0.4)
+Requirement already satisfied: colorama in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (0.4.4)
+Requirement already satisfied: decorator in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (5.1.0)
+Requirement already satisfied: pygments in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (2.10.0)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (3.0.20)
+Requirement already satisfied: parso&lt;0.9.0,&gt;=0.8.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jedi&gt;=0.16-&gt;ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (0.8.2)
+Requirement already satisfied: python-dateutil&gt;=2.1 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter-client&lt;8.0-&gt;ipykernel-&gt;jupyter) (2.8.2)
+Requirement already satisfied: jupyter-core&gt;=4.6.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter-client&lt;8.0-&gt;ipykernel-&gt;jupyter) (4.8.1)
+Requirement already satisfied: pyzmq&gt;=13 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter-client&lt;8.0-&gt;ipykernel-&gt;jupyter) (22.2.1)
+Requirement already satisfied: pywin32&gt;=1.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jupyter-core&gt;=4.6.0-&gt;jupyter-client&lt;8.0-&gt;ipykernel-&gt;jupyter) (228)
+Requirement already satisfied: wcwidth in c:\users\venkata sunny\anaconda3\lib\site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0-&gt;ipython&lt;8.0,&gt;=7.23.1-&gt;ipykernel-&gt;jupyter) (0.2.5)
+Requirement already satisfied: six&gt;=1.5 in c:\users\venkata sunny\anaconda3\lib\site-packages (from python-dateutil&gt;=2.1-&gt;jupyter-client&lt;8.0-&gt;ipykernel-&gt;jupyter) (1.16.0)
+Requirement already satisfied: widgetsnbextension~=3.5.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipywidgets-&gt;jupyter) (3.5.1)
+Requirement already satisfied: nbformat&gt;=4.2.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipywidgets-&gt;jupyter) (5.1.3)
+Requirement already satisfied: jupyterlab-widgets&gt;=1.0.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from ipywidgets-&gt;jupyter) (1.0.0)
+Requirement already satisfied: jsonschema!=2.5.0,&gt;=2.4 in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbformat&gt;=4.2.0-&gt;ipywidgets-&gt;jupyter) (3.2.0)
+Requirement already satisfied: attrs&gt;=17.4.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jsonschema!=2.5.0,&gt;=2.4-&gt;nbformat&gt;=4.2.0-&gt;ipywidgets-&gt;jupyter) (21.2.0)
+Requirement already satisfied: pyrsistent&gt;=0.14.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jsonschema!=2.5.0,&gt;=2.4-&gt;nbformat&gt;=4.2.0-&gt;ipywidgets-&gt;jupyter) (0.18.0)
+Requirement already satisfied: terminado&gt;=0.8.3 in c:\users\venkata sunny\anaconda3\lib\site-packages (from notebook-&gt;jupyter) (0.9.4)
+Requirement already satisfied: prometheus-client in c:\users\venkata sunny\anaconda3\lib\site-packages (from notebook-&gt;jupyter) (0.11.0)
+Requirement already satisfied: jinja2 in c:\users\venkata sunny\anaconda3\lib\site-packages (from notebook-&gt;jupyter) (2.11.3)
+Requirement already satisfied: argon2-cffi in c:\users\venkata sunny\anaconda3\lib\site-packages (from notebook-&gt;jupyter) (20.1.0)
+Requirement already satisfied: Send2Trash&gt;=1.5.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from notebook-&gt;jupyter) (1.8.0)
+Requirement already satisfied: pywinpty&gt;=0.5 in c:\users\venkata sunny\anaconda3\lib\site-packages (from terminado&gt;=0.8.3-&gt;notebook-&gt;jupyter) (0.5.7)
+Requirement already satisfied: cffi&gt;=1.0.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from argon2-cffi-&gt;notebook-&gt;jupyter) (1.14.6)
+Requirement already satisfied: pycparser in c:\users\venkata sunny\anaconda3\lib\site-packages (from cffi&gt;=1.0.0-&gt;argon2-cffi-&gt;notebook-&gt;jupyter) (2.20)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in c:\users\venkata sunny\anaconda3\lib\site-packages (from jinja2-&gt;notebook-&gt;jupyter) (1.1.1)
+Requirement already satisfied: mistune&lt;2,&gt;=0.8.1 in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (0.8.4)
+Requirement already satisfied: bleach in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (4.0.0)
+Requirement already satisfied: pandocfilters&gt;=1.4.1 in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (1.4.3)
+Requirement already satisfied: nbclient&lt;0.6.0,&gt;=0.5.0 in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (0.5.3)
+Requirement already satisfied: testpath in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (0.5.0)
+Requirement already satisfied: entrypoints&gt;=0.2.2 in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (0.3)
+Requirement already satisfied: defusedxml in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (0.7.1)
+Requirement already satisfied: jupyterlab-pygments in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbconvert-&gt;jupyter) (0.1.2)
+Requirement already satisfied: async-generator in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbclient&lt;0.6.0,&gt;=0.5.0-&gt;nbconvert-&gt;jupyter) (1.10)
+Requirement already satisfied: nest-asyncio in c:\users\venkata sunny\anaconda3\lib\site-packages (from nbclient&lt;0.6.0,&gt;=0.5.0-&gt;nbconvert-&gt;jupyter) (1.5.1)
+Requirement already satisfied: packaging in c:\users\venkata sunny\anaconda3\lib\site-packages (from bleach-&gt;nbconvert-&gt;jupyter) (21.0)
+Requirement already satisfied: webencodings in c:\users\venkata sunny\anaconda3\lib\site-packages (from bleach-&gt;nbconvert-&gt;jupyter) (0.5.1)
+Requirement already satisfied: pyparsing&gt;=2.0.2 in c:\users\venkata sunny\anaconda3\lib\site-packages (from packaging-&gt;bleach-&gt;nbconvert-&gt;jupyter) (3.0.4)
+Requirement already satisfied: qtpy in c:\users\venkata sunny\anaconda3\lib\site-packages (from qtconsole-&gt;jupyter) (1.10.0)
+</pre>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+   <div class="jp-Cell-inputWrapper">
+    <div class="jp-InputArea jp-Cell-inputArea">
+     <div class="jp-InputPrompt jp-InputArea-prompt">
+      In [ ]:
+     </div>
+     <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+      <div class="CodeMirror cm-s-jupyter">
+       <div class="highlight hl-ipython3">
+        <pre><span></span> 
+</pre>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
   </div>
  </body>
